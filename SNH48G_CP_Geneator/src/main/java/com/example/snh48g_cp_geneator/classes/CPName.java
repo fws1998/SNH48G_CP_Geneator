@@ -10,4 +10,16 @@ public class CPName {
         this.description = description;
         this.from = from;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public String getFrom() {
+        return from;
+    }
 }
